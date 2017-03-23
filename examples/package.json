@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "unvue start",
+    "build": "unvue build",
+    "dev": "unvue dev"
+  },
+  "dependencies": {
+    "unvue": "^0.9.2",
+    "unvue-plugin-markdown-loader": "*"
+  }
+}
