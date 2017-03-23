@@ -22,7 +22,10 @@
   },
   "xo": {
     "extends": "rem",
-    "esnext": true
+    "esnext": true,
+    "ignores": [
+      "examples/**/**"
+    ]
   },
   "dependencies": {
     "vue-markdown-loader": "^0.6.2"
