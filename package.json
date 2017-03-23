@@ -1,0 +1,30 @@
+{
+  "name": "unvue-plugin-markdown-loader",
+  "version": "0.0.1",
+  "description": "add markdown loader for unvue",
+  "repository": {
+    "url": "zcong1993/unvue-plugin-markdown-loader",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo 'no tests!' && npm run lint",
+    "lint": "xo"
+  },
+  "author": "zcong1993 <1005997919@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "extends": "rem",
+    "esnext": true
+  },
+  "dependencies": {
+    "vue-markdown-loader": "^0.6.2"
+  }
+}
