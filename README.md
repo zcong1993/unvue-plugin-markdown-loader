@@ -5,17 +5,27 @@
 ## Install
 
 ```bash
-yarn add unvue-plugin-markdown-loader
+yarn add unvue-plugin-markdown-loader --dev
 ```
 
 ## Usage
 
+About `unvue` see [egoist/unvue](https://github.com/egoist/unvue), and [offical docs](https://egoistian.com/unvue/#/).
+
 ```js
+// in your unvue.config.js
 const unvuePluginMarkdownLoader = require('unvue-plugin-markdown-loader')
 
-unvuePluginMarkdownLoader()
-//=> foo
+module.exports = {
+  plugins: [
+    // add markdownLoaderPlugin
+    // you can also add some custom options
+    markdownLoaderPlugin()
+  ]
+}
 ```
+
+For more details can see [example](https://github.com/zcong1993/unvue-plugin-markdown-loader/tree/master/examples), more about `vue-markdown-loader` please see [QingWei-Li/vue-markdown-loader](https://github.com/QingWei-Li/vue-markdown-loader).
 
 ## Contributing
 
